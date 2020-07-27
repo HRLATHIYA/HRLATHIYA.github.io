@@ -1,0 +1,41 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: white;
+  background-color: black;
+  border: .05rem solid white;
+}
+html,body {
+  height: 100%;
+  background-color: #000;
+}
+body {
+  color: #fff;
+  text-shadow: 0.07rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+.masthead {
+  padding: 1% 2% 1% 0px;
+}
+.cover-container {
+  min-height:10% ;
+  max-width: 52%;
+}
+.cover {
+  padding: 26% 0px 0px 0px;
+  align-self: center;
+}
+.cover .btn-lg {
+  padding: .75rem 2rem;
+  font-weight: 70;
+}
+.footer { 
+  position: relative;
+  height: 0px;
+  color: rgba(255, 255, 255, .9);
+}
