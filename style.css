@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Merriweather', serif;
+    background-color: #d9c5ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic-container {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 1s ease, width 1s ease, height 1s ease, border-radius 1s ease;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transform: translate(0, 0);
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-pic-container.moved {
+    width: 30vw;
+    height: 50vh;
+    transform: translate(calc(20vw - 15vw), calc(-50vh + 15vh + 25vh));
+    border-radius: 15px;
+}
+
+.box {
+    position: absolute;
+    background: #d9c5ad;
+    color: #7B3F00;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    z-index: 5;
+}
+
+#Header {
+    width: 95vw;
+    height: 10vh;
+    top: 2.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+#IntroBlock {
+    width: 35vw;
+    height: 50vh;
+    top: 15vh;
+    left: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Intro {
+    font-size: xxx-large;
+    text-align: right;
+}
+
+.SubIntro {
+    font-size: x-large;
+    text-align: right;
+}
+
+#AboutMe {
+    width: 25vw;
+    height: 60vh;
+    top: 15vh;
+    right: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#Empty {
+    width: 30vw;
+    height: 30vh;
+    bottom: 2.5vh;
+    left: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#contactMe {
+    width: 25vw;
+    height: 20vh;
+    bottom: 2.5vh;
+    right: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ProfessionalOverview {
+    width: 35vw;
+    height: 30vh;
+    bottom: 2.5vh;
+    left: 35vw;
+    background-color: #7d6e6a;
+    color: #d9c5ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.show {
+    opacity: 1;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#contactTag {
+    text-align: center;
+}
+
+#contact {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact i {
+    color: #7B3F00;
+}
