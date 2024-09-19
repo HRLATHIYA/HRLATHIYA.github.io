@@ -1,2 +1,2 @@
-# BluesAdmirer.github.io
+# HRLATHIYA.github.io
 Personal website
