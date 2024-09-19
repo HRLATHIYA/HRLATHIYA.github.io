@@ -81,12 +81,10 @@ body, html {
 }
 
 .Intro {
-    font-size: xxx-large;
     text-align: right;
 }
 
 .SubIntro {
-    font-size: x-large;
     text-align: right;
 }
 
@@ -160,4 +158,12 @@ body, html {
 
 #contact i {
     color: #7B3F00;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+h2 {
+    font-size: 1.5vw;
 }
